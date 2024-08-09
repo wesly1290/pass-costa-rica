@@ -1,0 +1,64 @@
+.donations {
+  background-color: #1a1a1a; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  padding: 40px;
+  max-width: 500px; /* Limita el ancho máximo del formulario */
+  margin: 0 auto; /* Centra el formulario en la página */
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); /* Sombra alrededor del formulario */
+  font-family: 'Roboto', sans-serif;
+}
+
+.donations h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #00bfff; /* Color del encabezado */
+}
+
+.donations form {
+  display: flex;
+  flex-direction: column;
+}
+
+.donations label {
+  margin-bottom: 5px;
+  font-size: 1.1em;
+  color: #b0b0b0; /* Color gris claro para etiquetas */
+}
+
+.donations input[type="text"],
+.donations input[type="email"],
+.donations input[type="number"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #333333; /* Fondo de los campos de entrada */
+  color: #ffffff;
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.donations input[type="text"]:focus,
+.donations input[type="email"]:focus,
+.donations input[type="number"]:focus {
+  outline: none;
+  background-color: #444444; /* Cambio de color al enfocarse */
+}
+
+.donations button {
+  padding: 15px;
+  background-color: #00bfff; /* Color del botón */
+  color: #ffffff;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra del botón */
+}
+
+.donations button:hover {
+  background-color: #008fb3; /* Cambio de color al pasar el mouse */
+}

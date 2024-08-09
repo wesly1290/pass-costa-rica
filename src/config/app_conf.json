@@ -1,0 +1,5 @@
+{
+  "REST_BASE_URL"     : "https://localhost:44342",
+  "TOKEN_EXPIRATION"  : 59,
+  "ALERTA_TOKEN"      : 1
+}

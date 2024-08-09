@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  justify-content: space-around; /* Espacio uniforme entre los elementos */
+  align-items: center; /* Alinea verticalmente */
+  background-color: tra; /* Color de fondo del menú (opcional) */
+  padding: 10px;
+}
+
+nav a {
+  color: rgb(255, 255, 255); /* Color del texto del menú */
+  text-decoration: none; /* Eliminar subrayado */
+  padding: 05px 10px; /* Espaciado interno de cada elemento del menú */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+nav a:hover {
+  border-bottom: 2px solid #00bfff; /* Estilo al pasar el mouse */
+}

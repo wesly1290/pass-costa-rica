@@ -1,0 +1,89 @@
+footer {
+    background-color:#0f0f0f ; /* Fondo oscuro para un look moderno */
+    color: #00bfff; /* Color de texto cian brillante */
+    padding: 40px 0; /* Espaciado interno */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+    border-top: 3px solid #00bfff; /* Línea superior para resaltar */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Para que sea responsive */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Espaciado lateral */
+}
+
+.contact-info, .quick-links, .social-icons {
+    flex: 1;
+    margin: 20px;
+}
+
+.contact-info h3, .quick-links h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #00bfff; /* Subrayado para los títulos */
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.contact-info p {
+    color: #b0b0b0; /* Texto de contacto en gris claro */
+    margin: 5px 0;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin: 10px 0;
+}
+
+.quick-links a {
+    color: #00bfff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 16px;
+}
+
+.quick-links a:hover {
+    color: #ffffff; /* Cambio de color al pasar el mouse */
+}
+
+.social-icons a {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img {
+    width: 30px; /* Tamaño de los iconos */
+    height: 30px;
+    filter: brightness(0) invert(1); /* Hacer que los iconos sean blancos */
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2); /* Aumentar tamaño al pasar el mouse */
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* Proporción 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  margin: 0 auto;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
